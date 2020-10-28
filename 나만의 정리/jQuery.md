@@ -96,3 +96,6 @@ $("button").click(function  () {
 
 - slow 로 속도 조정 
 - 0.15 -> opacity 조정 가능
+
+#### jQuery Effects -  Sliding
+-slide 부터 시작!
