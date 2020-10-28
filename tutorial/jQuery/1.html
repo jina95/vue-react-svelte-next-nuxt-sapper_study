@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //     $('button').click(function () {
+        //         $('p').hide();
+        //     })
+        // })
+        $(function(){
+            $("button").click(function () {
+                $("#box1").fadeTo("slow", 0.15);
+                $("#box2").fadeTo("slow", 0.45);
+                $("#box3").fadeTo("slow", 0.65);
+            })
+            // $("#hide").click(function () {
+            //     $("p").toggle("slow");
+            // })
+            // $("#show").click(function () {
+            //     $("p").show()
+            // })
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 class="jane">This is a Heading Tag</h1>
+    <p id="hide" >this is p tag</p>
+    <p id="show" class="jane">this is p tag</p>
+    <button>click me !!</button> -->
+    <!-- <p>hi everybody~! </p>
+    <button id="hide">hide</button>
+    <button id="show">show</button> -->
+    <button>click!</button>
+    <div id="box1" style="width:50px; height:50px; background-color: red;"></div>
+    <div id="box2" style="width:50px; height:50px; background-color: blue;"></div>
+    <div id="box3" style="width:50px; height:50px; background-color: yellow;"></div>
+</body>
+</html>
