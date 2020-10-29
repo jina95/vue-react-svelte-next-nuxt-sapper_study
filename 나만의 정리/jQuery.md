@@ -162,7 +162,7 @@ $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
 - The jQuery  `before()`  method inserts content BEFORE the selected HTML elements.
 - append, prepend, after, before 모두 여러개의 새 요소를 추가할 수 있다.
 
-<img src="Add Several New Elements With append() and prepend()">
+<img src="https://github.com/jina95/vue-react-svelte-next-nuxt-sapper_study/blob/main/img/Add%20Several%20New%20Elements%20With%20append()%20and%20prepend().png" width="100%">
 
 > 아직 정확하게 이해가 되지 않아서, 예시와 설명 첨부
 
